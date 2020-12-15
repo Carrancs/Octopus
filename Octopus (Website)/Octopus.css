@@ -1,0 +1,464 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#body {
+height: auto;
+margin: 0 auto;
+padding: 0; 
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+}
+
+
+#imgBody {
+
+position:fixed;
+top:-20px;
+right:-5px;
+left:-40px;
+z-index:-1;
+opacity:0.5;
+
+}
+
+
+#mainWrapper {
+width: 100%;
+padding: 0px;
+margin-right: auto; 
+margin-left: auto; 
+margin-top: 0px; 
+margin-bottom: 0px;
+border: 2px #9D6931 solid;
+}
+
+#banner {
+
+width: 100%;
+height: 150px;
+background-color: rgba(0, 0, 0, .8);
+
+}
+
+#banner img {
+	
+border-radius: 8px;
+float: left;
+margin-top: 1.5%;
+margin-left: 10%;
+opacity: 0.8;
+
+}
+
+
+#hNav {
+width: auto;
+float: right;
+margin-top: 70px;
+margin-right: 80px;
+font-family: Calibri, Verdana, Arial;
+font-size: 120%;
+
+}
+
+
+#hNav ul {
+
+list-style: none;
+
+}
+
+
+#hNav li {
+
+width: auto;
+padding: 5px;
+border-top: 3px solid #66CC33;
+margin: 10px;
+float: left;
+	
+}
+
+#hNav a {
+	
+color: #66CC33;
+text-decoration: none;
+transition: font-size 2s;
+	
+}
+
+#hNav a:hover {
+
+font-size: 26px;
+	
+}
+
+#hnav a:active {
+
+color: #66CC33;
+
+}
+
+#hNav li ul {
+	
+display: none;
+visibility: hidden;
+opacity: 0;
+position: relative;
+transition: opacity 2s, visibility 2s;
+	
+}
+
+#hNav li ul a {
+	
+border-radius: 8px;
+
+	
+}
+
+#hNav li:hover ul {
+display: block;
+visibility: visible;
+opacity: 1;
+
+}
+
+#content {
+
+margin-left: 150px;
+
+}
+
+#content h1 {
+
+width: 450px;
+margin-top: 100px;
+font-size: 70px;
+color: #99E0FF;
+text-shadow: 10px 10px 5px #888888;
+
+}
+
+#contentAbout {
+
+width: 800px;
+color:#299C39;
+
+}
+
+#sendEmail {
+
+margin-top: 100pX;
+
+}
+
+#gal {
+
+width: 87%;
+margin-left: 10%;
+margin-right: auto;
+display: block;
+margin-top: 50px;
+margin-bottom: 20px;
+
+}
+
+.imgServ {
+width: 250px;
+height: 300px;
+background-color: #888;
+padding: 8px;
+margin-right: 0px;
+margin-left: 2%;
+margin-bottom: 5px;
+margin-top: 15px;
+display: inline-block;
+vertical-align: top;
+color: #66CC33;
+text-align: center;
+border-radius: 8px;
+border-top: 1px solid #DDD;
+border-bottom: 2px solid #555;
+}
+
+.imgServ a {
+	
+text-decoration: none;
+color: #66CC33;
+width: 90%;
+height: 90%;
+
+	
+}
+
+.imgServ img {
+	
+border-radius: 8px;
+width: 95%;
+height: 85%;
+	
+}
+
+
+#imgServ2 {
+width: 750px;
+height: 750px;
+background-color: #888;
+padding: 8px;
+margin-right: 1px;
+margin-left: 30px;
+margin-bottom: 15px;
+margin-top: 15px;
+display: inline-block;
+vertical-align: top;
+text-align: center;
+border-radius: 8px; 
+border-top: 1px solid #DDD; 
+border-bottom: 2px solid #555;
+
+}
+
+#imgServ2 a {
+
+text-decoration: none;
+color: lightblue;
+font-size: 28px;
+
+}
+
+
+#imgServ2Text {
+	
+width: 550px;
+height: auto;
+margin-top: 25px;
+margin-left: 100px;
+font-size: 12px;
+
+}
+
+
+#imgServ2 img {
+
+border-radius: 8px;
+
+}
+
+
+
+#proy {
+
+width: 900px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+margin-bottom: 20px;
+
+}
+
+.imgProy {
+width: 270px;
+height: auto;
+background-color: #888;
+padding: 8px;
+margin-right: 0px;
+margin-left: 5px;
+margin-bottom: 5px;
+margin-top: 15px;
+display: inline-block;
+vertical-align: top;
+color: #66CC33;
+text-align: center;
+border-radius: 8px;
+border-top: 1px solid #DDD;
+border-bottom: 2px solid #555;
+}
+
+.imgProy h4 {
+
+text-align: center;
+
+}
+
+.imgProy p {
+
+text-align: left;
+
+}
+
+.imgProy a {
+	
+text-decoration: none;
+color: #000000;
+width: 300px;
+height: 300px;
+	
+}
+
+.imgProy img {
+	
+border-radius: 8px;
+	
+}
+
+
+
+/* This is the Begining of the Contact Form*/
+
+aside {
+	
+width: 500px;
+display: block;
+color: #5E2D0E;
+margin-left: 150px;
+	
+}
+
+
+fieldset {
+
+margin-bottom: 20px;
+padding-right: 220px;
+padding-left: 220px;
+border: 2px solid #66CC33;
+border-radius: 8px;
+background-color: rgba(0, 0, 0, .4);
+
+}
+
+
+label { 
+	
+float: left;
+width: 120px;
+text-align: right;
+padding-top: 3px;
+padding-right: 10px;
+margin-top: 3px;
+margin-right: 0px;
+
+}
+
+
+input { 
+	
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 0px;
+padding-left: 2px;
+display: block;
+border-radius: 4px;
+
+}
+
+
+.subject {
+	
+margin-top: 4px;
+	
+}
+
+.checkbox {
+
+margin-top: 30px;
+margin-bottom: 22px;
+
+}
+
+textarea { 
+	
+margin-top: 55px;
+margin-right: 30px;
+margin-bottom: 20px;
+margin-left: 40px;
+display: block;
+border-radius: 6px;
+
+}
+
+#fSubject {
+	
+font-size: 18px;
+margin-left: 30px;
+	
+}
+
+
+#mContact {
+	
+font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+font-size: 14px;
+margin-right: 20px;
+margin-left: 45px;
+padding: 10px;
+padding-right: 34px;
+padding-left: 34px;
+float: left;
+	
+}
+
+
+#mReset {
+	
+font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+font-size: 14px;
+margin-right: 20px;
+margin-left: 25px;
+padding: 10px;
+padding-right: 37px;
+padding-left: 37px;
+float: left;
+	
+}
+
+
+/* This is the End of the Contact Form*/
+
+
+
+
+/*--------------------------------------------------------------------------*/
+
+
+
+
+
+#contactInfo {
+	
+width: 648px;
+height: auto;
+float: left;
+border: 1px solid #BDBDBD;
+margin-left: 150px;
+margin-top: 40px;
+padding-bottom: 40px;
+border-radius: 8px;
+	
+}
+
+#contactInfo img {
+	
+padding-bottom: 15px;
+border-radius: 8px;
+	
+}
+
+#contactInfo p {
+	
+margin-left: 50px;
+font-size: 16px;
+	
+}
+
+
+#footer {
+height: 30px;
+padding-top: 1px;
+padding-bottom: 15px;
+margin-top: 10px;
+background-color: #242627;
+text-align: center;
+font-size: 13px;
+color: #9E343C;
+clear: both;
+}
+
